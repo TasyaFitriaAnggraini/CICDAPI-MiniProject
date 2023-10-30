@@ -1,0 +1,17 @@
+starter\API\Login.class
+starter\API\Register.class
+starter\stepdefinition\CommentSteps.class
+starter\API\UserInformation.class
+starter\stepdefinition\RatingsSteps.class
+starter\stepdefinition\ProductsSteps.class
+starter\API\ProductCategories.class
+starter\stepdefinition\RegisterSteps.class
+starter\stepdefinition\OrdersSteps.class
+starter\CucumberTestSuite.class
+starter\stepdefinition\LoginSteps.class
+starter\stepdefinition\UserInformationSteps.class
+starter\API\Orders.class
+starter\API\Comment.class
+starter\API\Ratings.class
+starter\API\Products.class
+starter\stepdefinition\ProductCategoriesSteps.class

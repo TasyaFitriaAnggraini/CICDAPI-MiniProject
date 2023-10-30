@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"[06_Automation] - Orders","TC56 - Add new orders","SUCCESS","2023-10-31T04:23:55.1367791+07:00[Asia/Bangkok]","0.0","0.12"
+"[06_Automation] - Orders","TC57 - Add new orders without set the token","SUCCESS","2023-10-31T04:23:55.2570805+07:00[Asia/Bangkok]","0.0","0.12"
+"[06_Automation] - Orders","TC60 - Get all orders","SUCCESS","2023-10-31T04:23:55.3855772+07:00[Asia/Bangkok]","0.0","0.12"
+"[06_Automation] - Orders","TC61 - Get all orders without token","SUCCESS","2023-10-31T04:23:55.5118364+07:00[Asia/Bangkok]","0.0","0.11"
+"[06_Automation] - Orders","TC62 - Get order by ID","SUCCESS","2023-10-31T04:23:55.6266286+07:00[Asia/Bangkok]","0.0","0.09"
+"[06_Automation] - Orders","TC63 - Get orders by invalid ID with character symbols","SUCCESS","2023-10-31T04:23:55.7230879+07:00[Asia/Bangkok]","0.0","0.1"
+"[06_Automation] - Orders","TC64 - Get orders by invalid ID with character alphabet","SUCCESS","2023-10-31T04:23:55.8264048+07:00[Asia/Bangkok]","0.0","0.09"
