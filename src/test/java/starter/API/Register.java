@@ -18,9 +18,9 @@ public class Register {
     @Step("I POST HTTP request for register using valid data")
     public void postHTTPRequestForRegister() {
         JSONObject body = new JSONObject();
-        body.put("email", "wiyan2@gmail.com");
-        body.put("password", "wiyan123");
-        body.put("fullname", "Wiyan Herra Herviana");
+        body.put("email", "della2@gmail.com");
+        body.put("password", "della123");
+        body.put("fullname", "Della Fricillia");
 
         SerenityRest
                 .given()
@@ -180,9 +180,9 @@ public class Register {
     @Step("I POST HTTP request for register with existed account")
     public void postHTTPRequestForRegisterWithExistedAccount() {
         JSONObject body = new JSONObject();
-        body.put("email", "anandatest1@gmail.com");
-        body.put("password", "Nandatest1");
-        body.put("fullname", "Ananda Dwi Rizkyta");
+        body.put("email", "della2@gmail.com");
+        body.put("password", "della123");
+        body.put("fullname", "Della Fricillia");
 
         SerenityRest
                 .given()
