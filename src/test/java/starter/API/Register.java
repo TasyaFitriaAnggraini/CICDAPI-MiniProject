@@ -180,7 +180,7 @@ public class Register {
     @Step("I POST HTTP request for register with existed account")
     public void postHTTPRequestForRegisterWithExistedAccount() {
         JSONObject body = new JSONObject();
-        body.put("email", "anandadwir@gmail.com");
+        body.put("email", "anandatest1@gmail.com");
         body.put("password", "Nandatest1");
         body.put("fullname", "Ananda Dwi Rizkyta");
 

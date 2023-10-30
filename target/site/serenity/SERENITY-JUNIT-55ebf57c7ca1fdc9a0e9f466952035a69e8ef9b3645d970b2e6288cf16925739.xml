@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="[01_Automation] - Register" skipped="0" tests="9" time="0.89" timestamp="2023-10-31 04:24:01"><testcase name="TC01 - Register using valid format fullname, email and password"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="[01_Automation] - Register" skipped="0" tests="9" time="0.87" timestamp="2023-10-31 04:37:32"><testcase name="TC01 - Register using valid format fullname, email and password"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
