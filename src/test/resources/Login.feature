@@ -20,10 +20,10 @@ Feature: [02_Automation] - Login
     When I POST HTTP request for login with valid account but change email with password and password with email
     Then I receive valid HTTP response 400 for login with valid account but change email with password and password with email
 
-#  Scenario: TC17 - Login with valid account but change the email payload with fullname
-#    Given I POST login endpoints 5
-#    When I POST HTTP request for login with valid account but change the email payload with fullname
-#    Then I receive valid HTTP response 400 for login with valid account but change the email payload with fullname
+  Scenario: TC17 - Login with valid account but change the email payload with fullname
+    Given I POST login endpoints 5
+    When I POST HTTP request for login with valid account but change the email payload with fullname
+    Then I receive valid HTTP response 400 for login with valid account but change the email payload with fullname
 
   Scenario: TC18 - Login without payload
     Given I POST login endpoints 6

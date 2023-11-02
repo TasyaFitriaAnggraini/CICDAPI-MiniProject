@@ -18,9 +18,9 @@ public class Register {
     @Step("I POST HTTP request for register using valid data")
     public void postHTTPRequestForRegister() {
         JSONObject body = new JSONObject();
-        body.put("email", "sugini2@gmail.com");
-        body.put("password", "sugini123");
-        body.put("fullname", "Sugini Injani");
+        body.put("email", "devasindi@gmail.com");
+        body.put("password", "sindi123");
+        body.put("fullname", "Deva Sindi");
 
         SerenityRest
                 .given()
@@ -41,8 +41,8 @@ public class Register {
     @Step("I POST HTTP request for register without using fullname")
     public void postHTTPRequestForRegisterWithoutUsingFullname() {
         JSONObject body = new JSONObject();
-        body.put("email", "wiyan123@gmail.com");
-        body.put("password", "wiyan123");
+        body.put("email", "aca123@gmail.com");
+        body.put("password", "aca123");
         body.put("fullname", "");
 
         SerenityRest
@@ -65,8 +65,8 @@ public class Register {
     public void postHTTPRequestForRegisterWithoutUsingEmail() {
         JSONObject body = new JSONObject();
         body.put("email", "");
-        body.put("password", "wiyan123");
-        body.put("fullname", "Wiyan Herra Herviana");
+        body.put("password", "aca123");
+        body.put("fullname", "Tasya Fitria Anggraini");
 
         SerenityRest
                 .given()
@@ -88,9 +88,9 @@ public class Register {
     @Step("I POST HTTP request for register without using password")
     public void postHTTPRequestForRegisterWithoutUsingPassword() {
         JSONObject body = new JSONObject();
-        body.put("email", "wiyan123@gmail.com");
+        body.put("email", "aca123@gmail.com");
         body.put("password", "");
-        body.put("fullname", "Wiyan Herra Herviana");
+        body.put("fullname", "Tasya Fitria Anggraini");
 
         SerenityRest
                 .given()
@@ -180,9 +180,9 @@ public class Register {
     @Step("I POST HTTP request for register with existed account")
     public void postHTTPRequestForRegisterWithExistedAccount() {
         JSONObject body = new JSONObject();
-        body.put("email", "sugini2@gmail.com");
-        body.put("password", "sugini123");
-        body.put("fullname", "Sugini Injani");
+        body.put("email", "devasindi@gmail.com");
+        body.put("password", "sindi123");
+        body.put("fullname", "Deva Sindi");
 
         SerenityRest
                 .given()
@@ -203,9 +203,9 @@ public class Register {
     @Step("I POST HTTP request for register with invalid payload format")
     public void postHTTPRequestForRegisterWithInvalidPayloadFormat() {
         JSONObject body = new JSONObject();
-        body.put("mail", "wiyan123@gmail.com");
-        body.put("pass", "wiyan123");
-        body.put("fullnme", "Wiyan Herra Herviana");
+        body.put("mail", "ici123@gmail.com");
+        body.put("pass", "ici123");
+        body.put("fullnme", "Rici Nivia");
 
         SerenityRest
                 .given()
@@ -269,9 +269,9 @@ public class Register {
     @Step("I send request for register with invalid HTTP method")
     public void putRequestForRegisterWithInvalidHTTPMethod() {
         JSONObject body = new JSONObject();
-        body.put("email","wiyan123@gmail.com");
-        body.put("password","wiyan123");
-        body.put("fullname","Wiyan Herra Herviana");
+        body.put("email","riska123@gmail.com");
+        body.put("password","riska123");
+        body.put("fullname","Riska Ameiyawati");
 
         SerenityRest
                 .given()

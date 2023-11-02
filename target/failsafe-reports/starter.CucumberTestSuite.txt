@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 67, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.379 s <<< FAILURE! - in starter.CucumberTestSuite
-[01_Automation] - Register.TC01 - Register using valid format fullname, email and password  Time elapsed: 0.167 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <400>.
-
-
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.273 s - in starter.CucumberTestSuite
